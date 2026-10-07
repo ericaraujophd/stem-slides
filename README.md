@@ -41,7 +41,7 @@ Chair: Fernando Pasquini Santos
 | Time | Presenter | Slides |
 |---|---|---|
 | 10:30 am | Herb Fynewever | Pending |
-| 10:50 am | Michael J. McGinnis | Pending |
+| 10:50 am | Michael J. McGinnis | [PowerPoint](Session-4/S4-10-50am-McGinnis-AI-in-Christian-Engineering-Education.pptx) |
 | 11:10 am | Nia Austin Ikpeiwunna | Pending |
 | 11:30 am | Olaf Hall-Holt | Pending |
 
