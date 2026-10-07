@@ -59,7 +59,7 @@ td{{padding:9px 6px;border-top:1px solid #eadfd8;vertical-align:top}}td.t{{white
 .btn:hover{{background:var(--dark)}}
 .pending{{color:#8a7a70;border:1px dashed #c9b8ad;padding:3px 10px;border-radius:14px;font-size:.85rem}}.note{{color:#666;font-size:.9rem}}
 
-.art{{background:#F8F2E6;border-bottom:1px solid #eadfd8;text-align:center}}.art img{{display:block;margin:0 auto;max-width:100%;max-height:300px;object-fit:contain}}
+.art{{background:#FFFFFF;border-bottom:1px solid #eadfd8;text-align:center}}.art img{{display:block;margin:0 auto;max-width:100%;max-height:300px;object-fit:contain}}
 footer{{text-align:center;font:13px Helvetica,Arial,sans-serif;color:#777;padding:10px 0 40px}}footer a{{color:var(--maroon)}}
 @media(max-width:560px){{header .wrap{{flex-direction:column;align-items:flex-start}}td.s{{text-align:left}}tr{{display:block;padding:6px 0}}td{{display:inline-block;border:0;padding:2px 6px}}}}
 </style></head><body>
