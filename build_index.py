@@ -5,7 +5,7 @@ Run from the repo folder after editing README.md:  python3 build_index.py
 README.md stays the single source of truth: session headings are '## ',
 the chair line starts with 'Chair:', and table rows are '| time | presenter | slides |'.
 Slides cells are either 'Pending', plain text, or markdown links [label](path).
-If images/header.jpg exists it is shown as a cream band under the maroon title bar.
+If images/header.png exists it is shown as a cream band under the maroon title bar.
 """
 import re, html, os
 
@@ -29,14 +29,14 @@ def cell(s):
         return '<span class="pending">Pending</span>'
     return f'<span class="note">{html.escape(s)}</span>'
 
-banner = os.path.exists('images/header.jpg')
+banner = os.path.exists('images/header.png')
 parts = []
 for s in sessions:
     day, _, rest = s['title'].partition(': ')
     rows = ''.join(f'<tr><td class="t">{html.escape(r[0])}</td><td>{html.escape(r[1])}</td><td class="s">{cell(r[2])}</td></tr>' for r in s['rows'])
     parts.append(f'<section class="card"><h2>{html.escape(s["title"])}</h2><p class="chair">{html.escape(s["chair"] and "Chair: " + s["chair"])}</p><table><tbody>{rows}</tbody></table></section>')
 
-art = '<div class="art"><img src="images/header.jpg" alt="Sketch of a reformer looking at a pocket watch"></div>' if banner else ''
+art = '<div class="art"><img src="images/header.png" alt="Sketch of a reformer looking at a pocket watch"></div>' if banner else ''
 page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>AI &amp; STEM Track Slides | Wisdom in the Age of AI 2026</title>
