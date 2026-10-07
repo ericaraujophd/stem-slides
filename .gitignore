@@ -1,0 +1,5 @@
+.DS_Store
+# Basden video (247 MB) is too large for GitHub; shared separately
+*.mp4
+*.wmv
+*.mov
