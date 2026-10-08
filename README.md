@@ -40,7 +40,7 @@ Chair: Fernando Pasquini Santos
 
 | Time | Presenter | Slides |
 |---|---|---|
-| 10:30 am | Herb Fynewever | Pending |
+| 10:30 am | Herb Fynewever | [PowerPoint](Session-4/S4-10-30am-Fynewever-AI-in-General-Chemistry.pptx) |
 | 10:50 am | Michael J. McGinnis | [PowerPoint](Session-4/S4-10-50am-McGinnis-AI-in-Christian-Engineering-Education.pptx) |
 | 11:10 am | Nia Austin Ikpeiwunna | [PowerPoint](Session-4/S4-11-10am-Ikpeiwunna-AI-as-a-Companion-for-Spiritual-Reflection.pptx) |
 | 11:30 am | Olaf Hall-Holt | Pending |
