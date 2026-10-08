@@ -24,7 +24,7 @@ for l in lines:
 def cell(s):
     links = re.findall(r'\[([^\]]+)\]\(([^)]+)\)', s)
     if links:
-        return ' '.join(f'<a class="btn" href="{html.escape(u)}">{html.escape(t)}</a>' for t, u in links)
+        return ' '.join(f'<a class="btn" href="{html.escape(u)}" target="_blank" rel="noopener">{html.escape(t)}</a>' for t, u in links)
     if s.lower() == 'pending':
         return '<span class="pending">Pending</span>'
     return f'<span class="note">{html.escape(s)}</span>'
