@@ -22,7 +22,7 @@ Chair: Ken Arnold
 |---|---|---|
 | 4:00 pm | Dohyung (Jacob) Cha | Pending |
 | 4:20 pm | Rachel Wondergem | [PowerPoint](Session-2/S2-4-20pm-Wondergem-What-Does-It-Take-To-Be-Wise.pptx), [PDF](Session-2/S2-4-20pm-Wondergem-What-Does-It-Take-To-Be-Wise.pdf) |
-| 4:40 pm | Fernando Pasquini Santos | Pending |
+| 4:40 pm | Fernando Pasquini Santos | [PowerPoint](Session-2/S2-4-40pm-Pasquini-Santos-Three-Paradigms-of-AI.pptx) |
 | 5:00 pm | Jeremy G. Van Antwerp and Matthew K. Heun | [PowerPoint](Session-2/S2-5-00pm-VanAntwerp-Heun-Wisdom-and-AI-2026-FINAL.pptx) |
 
 ## Session 3: Friday, October 9, 8:30 to 10:00 am
