@@ -31,7 +31,7 @@ Chair: Eric Araújo
 | Time | Presenter | Slides |
 |---|---|---|
 | 8:30 am | Nathan Sunukjian | Pending |
-| 8:50 am | Christine Boshuijzen-van Burken | Pending |
+| 8:50 am | Christine Boshuijzen-van Burken | [PowerPoint](Session-3/S3-8-50am-Boshuijzen-van-Burken-Responsible-Military-AI.pptx) |
 | 9:10 am | Ronit Sharma | Pending |
 | 9:30 am | Oluwafolake Ayano | Pending |
 
@@ -64,4 +64,4 @@ Chair: Nathan Sunukjian
 | 3:50 pm | Riné le Comte | Pending |
 | 4:10 pm | Sandra Mosley | [PowerPoint](Session-6/S6-4-10pm-Mosley-AI-as-a-Bridge.pptx) |
 | 4:30 pm | Nick Breems | Pending |
-| 4:50 pm | Book presentation: Christine Boshuijzen-van Burken and Eric Araújo | No slides |
+| 4:50 pm | Book presentation: Christine Boshuijzen-van Burken and Eric Araújo | [PowerPoint](Session-6/S6-4-50pm-Book-AI-Ethics-Revisited.pptx) |
