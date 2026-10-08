@@ -13,7 +13,7 @@ Chair: Christine Boshuijzen-van Burken
 |---|---|---|
 | 2:00 pm | Esa M. Rantanen | [PowerPoint](Session-1/S1-2-00pm-Rantanen-Wisdom-and-AI.pptx) |
 | 2:40 pm | Anthony Rose | [PDF](Session-1/S1-2-40pm-Rose-AI-Psychotherapy.pdf) |
-| 3:00 pm | Shelley Zhang | Pending |
+| 3:00 pm | Shelley Zhang | [PowerPoint](Session-1/S1-3-00pm-Zhang-Bridging-Gaps.pptx) |
 
 ## Session 2: Thursday, October 8, 4:00 to 5:30 pm
 Chair: Ken Arnold
