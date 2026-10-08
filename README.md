@@ -30,7 +30,7 @@ Chair: Eric Araújo
 
 | Time | Presenter | Slides |
 |---|---|---|
-| 8:30 am | Nathan Sunukjian | Pending |
+| 8:30 am | Nathan Sunukjian | [PDF](Session-3/S3-8-30am-Sunukjian-In-Claude-We-Trust.pdf) |
 | 8:50 am | Christine Boshuijzen-van Burken | [PowerPoint](Session-3/S3-8-50am-Boshuijzen-van-Burken-Responsible-Military-AI.pptx) |
 | 9:10 am | Ronit Sharma | [PowerPoint](Session-3/S3-9-10am-Sharma-Ethics-of-AI-Assisted-Code-Migration.pptx), [PDF](Session-3/S3-9-10am-Sharma-Ethics-of-AI-Assisted-Code-Migration.pdf) |
 | 9:30 am | Oluwafolake Ayano | Pending |
