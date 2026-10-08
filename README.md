@@ -32,7 +32,7 @@ Chair: Eric Araújo
 |---|---|---|
 | 8:30 am | Nathan Sunukjian | Pending |
 | 8:50 am | Christine Boshuijzen-van Burken | [PowerPoint](Session-3/S3-8-50am-Boshuijzen-van-Burken-Responsible-Military-AI.pptx) |
-| 9:10 am | Ronit Sharma | Pending |
+| 9:10 am | Ronit Sharma | [PowerPoint](Session-3/S3-9-10am-Sharma-Ethics-of-AI-Assisted-Code-Migration.pptx), [PDF](Session-3/S3-9-10am-Sharma-Ethics-of-AI-Assisted-Code-Migration.pdf) |
 | 9:30 am | Oluwafolake Ayano | Pending |
 
 ## Session 4: Friday, October 9, 10:30 am to 12:00 pm
