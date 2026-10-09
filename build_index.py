@@ -13,10 +13,12 @@ lines = open('README.md', encoding='utf-8').read().split('\n')
 sessions, cur = [], None
 for l in lines:
     if l.startswith('## '):
-        cur = {'title': l[3:].strip(), 'chair': '', 'rows': []}
+        cur = {'title': l[3:].strip(), 'chair': '', 'themes': '', 'rows': []}
         sessions.append(cur)
     elif cur is not None and l.startswith('Chair:'):
         cur['chair'] = l[6:].strip()
+    elif cur is not None and l.startswith('Themes:'):
+        cur['themes'] = l[7:].strip()
     elif cur is not None and l.startswith('|') and not l.startswith('|---') and 'Presenter' not in l:
         c = [x.strip() for x in l.strip('|').split('|')]
         cur['rows'].append(c)
@@ -37,7 +39,8 @@ for s in sessions:
     for r in s['rows']:
         th = '<br><span class="theme">' + html.escape(r[2]) + '</span>' if r[2] else ''
         rows += f'<tr><td class="t">{html.escape(r[0])}</td><td>{html.escape(r[1])}{th}</td><td class="s">{cell(r[3])}</td></tr>'
-    parts.append(f'<section class="card"><h2>{html.escape(s["title"])}</h2><p class="chair">{html.escape(s["chair"] and "Chair: " + s["chair"])}</p><table><tbody>{rows}</tbody></table></section>')
+    th_line = ('<p class="themes">Themes: ' + html.escape(s['themes']) + '</p>') if s['themes'] else ''
+    parts.append(f'<section class="card"><h2>{html.escape(s["title"])}</h2><p class="chair">{html.escape(s["chair"] and "Chair: " + s["chair"])}</p>{th_line}<table><tbody>{rows}</tbody></table></section>')
 
 art = '<div class="art"><img src="images/header.png" alt="Sketch of a reformer looking at a pocket watch"></div>' if banner else ''
 page = f'''<!doctype html><html lang="en"><head><meta charset="utf-8">
@@ -60,7 +63,7 @@ table{{width:100%;border-collapse:collapse;font:15px/1.4 Helvetica,Arial,sans-se
 td{{padding:9px 6px;border-top:1px solid #eadfd8;vertical-align:top}}td.t{{white-space:nowrap;color:#666;width:80px}}td.s{{text-align:right}}
 .btn{{display:inline-block;background:var(--maroon);color:#fff;text-decoration:none;padding:4px 12px;border-radius:14px;font-size:.85rem;margin-left:4px}}
 .btn:hover{{background:var(--dark)}}
-.pending{{color:#8a7a70;border:1px dashed #c9b8ad;padding:3px 10px;border-radius:14px;font-size:.85rem}}.note{{color:#666;font-size:.9rem}}.theme{{color:var(--maroon);font-size:.8rem;letter-spacing:.03em}}
+.pending{{color:#8a7a70;border:1px dashed #c9b8ad;padding:3px 10px;border-radius:14px;font-size:.85rem}}.note{{color:#666;font-size:.9rem}}.themes{{margin:0 0 8px;font:600 .8rem Helvetica,Arial,sans-serif;color:var(--maroon);letter-spacing:.03em}}.theme{{color:var(--maroon);font-size:.8rem;letter-spacing:.03em}}
 
 .art{{background:#FFFFFF;border-bottom:1px solid #eadfd8;text-align:center}}.art img{{display:block;margin:0 auto;max-width:100%;max-height:300px;object-fit:contain}}
 footer{{text-align:center;font:13px Helvetica,Arial,sans-serif;color:#777;padding:10px 0 40px}}footer a{{color:var(--maroon)}}

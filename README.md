@@ -8,6 +8,7 @@ Questions: AI-STEM@calvin.edu
 
 ## Session 1: Thursday, October 8, 2:00 to 3:30 pm
 Chair: Christine Boshuijzen-van Burken
+Themes: Theological Foundations
 
 | Time | Presenter | Theme | Slides |
 |---|---|---|---|
@@ -17,6 +18,7 @@ Chair: Christine Boshuijzen-van Burken
 
 ## Session 2: Thursday, October 8, 4:00 to 5:30 pm
 Chair: Ken Arnold
+Themes: Theological Foundations, Ethics: Conceptual
 
 | Time | Presenter | Theme | Slides |
 |---|---|---|---|
@@ -27,6 +29,7 @@ Chair: Ken Arnold
 
 ## Session 3: Friday, October 9, 8:30 to 10:00 am
 Chair: Eric Araújo
+Themes: Ethics: Conceptual, Ethics: Applied
 
 | Time | Presenter | Theme | Slides |
 |---|---|---|---|
@@ -37,6 +40,7 @@ Chair: Eric Araújo
 
 ## Session 4: Friday, October 9, 10:30 am to 12:00 pm
 Chair: Fernando Pasquini Santos
+Themes: Formation & Learning
 
 | Time | Presenter | Theme | Slides |
 |---|---|---|---|
@@ -47,6 +51,7 @@ Chair: Fernando Pasquini Santos
 
 ## Session 5: Friday, October 9, 1:30 to 2:45 pm
 Chair: Harry Plantinga
+Themes: Christian Vocation
 
 | Time | Presenter | Theme | Slides |
 |---|---|---|---|
@@ -57,6 +62,7 @@ Chair: Harry Plantinga
 
 ## Session 6: Friday, October 9, 3:30 to 5:05 pm
 Chair: Nathan Sunukjian
+Themes: Justice, Care & Community, Ethics: Conceptual
 
 | Time | Presenter | Theme | Slides |
 |---|---|---|---|
