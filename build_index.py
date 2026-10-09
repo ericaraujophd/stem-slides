@@ -3,7 +3,7 @@
 
 Run from the repo folder after editing README.md:  python3 build_index.py
 README.md stays the single source of truth: session headings are '## ',
-the chair line starts with 'Chair:', and table rows are '| time | presenter | slides |'.
+the chair line starts with 'Chair:', and table rows are '| time | presenter | theme | slides |'.
 Slides cells are either 'Pending', plain text, or markdown links [label](path).
 If images/header.png exists it is shown as a cream band under the maroon title bar.
 """
@@ -33,7 +33,10 @@ banner = os.path.exists('images/header.png')
 parts = []
 for s in sessions:
     day, _, rest = s['title'].partition(': ')
-    rows = ''.join(f'<tr><td class="t">{html.escape(r[0])}</td><td>{html.escape(r[1])}</td><td class="s">{cell(r[2])}</td></tr>' for r in s['rows'])
+    rows = ''
+    for r in s['rows']:
+        th = '<br><span class="theme">' + html.escape(r[2]) + '</span>' if r[2] else ''
+        rows += f'<tr><td class="t">{html.escape(r[0])}</td><td>{html.escape(r[1])}{th}</td><td class="s">{cell(r[3])}</td></tr>'
     parts.append(f'<section class="card"><h2>{html.escape(s["title"])}</h2><p class="chair">{html.escape(s["chair"] and "Chair: " + s["chair"])}</p><table><tbody>{rows}</tbody></table></section>')
 
 art = '<div class="art"><img src="images/header.png" alt="Sketch of a reformer looking at a pocket watch"></div>' if banner else ''
@@ -57,7 +60,7 @@ table{{width:100%;border-collapse:collapse;font:15px/1.4 Helvetica,Arial,sans-se
 td{{padding:9px 6px;border-top:1px solid #eadfd8;vertical-align:top}}td.t{{white-space:nowrap;color:#666;width:80px}}td.s{{text-align:right}}
 .btn{{display:inline-block;background:var(--maroon);color:#fff;text-decoration:none;padding:4px 12px;border-radius:14px;font-size:.85rem;margin-left:4px}}
 .btn:hover{{background:var(--dark)}}
-.pending{{color:#8a7a70;border:1px dashed #c9b8ad;padding:3px 10px;border-radius:14px;font-size:.85rem}}.note{{color:#666;font-size:.9rem}}
+.pending{{color:#8a7a70;border:1px dashed #c9b8ad;padding:3px 10px;border-radius:14px;font-size:.85rem}}.note{{color:#666;font-size:.9rem}}.theme{{color:var(--maroon);font-size:.8rem;letter-spacing:.03em}}
 
 .art{{background:#FFFFFF;border-bottom:1px solid #eadfd8;text-align:center}}.art img{{display:block;margin:0 auto;max-width:100%;max-height:300px;object-fit:contain}}
 footer{{text-align:center;font:13px Helvetica,Arial,sans-serif;color:#777;padding:10px 0 40px}}footer a{{color:var(--maroon)}}
