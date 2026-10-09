@@ -70,4 +70,4 @@ Themes: Justice, Care & Community, Ethics: Conceptual
 | 3:50 pm | Riné le Comte | Justice, Care & Community | Pending |
 | 4:10 pm | Sandra Mosley | Justice, Care & Community | [PowerPoint](Session-6/S6-4-10pm-Mosley-AI-as-a-Bridge.pptx) |
 | 4:30 pm | Nick Breems | Ethics: Conceptual | Pending |
-| 4:50 pm | Book presentation: Christine Boshuijzen-van Burken and Eric Araújo |  | [PowerPoint](Session-6/S6-4-50pm-Book-AI-Ethics-Revisited.pptx) |
+| 4:50 pm | Book presentation: Christine Boshuijzen-van Burken and Eric Araújo |  | [Presentation (HTML)](Session-6/S6-4-50pm-Book-AI-Ethics-Revisited.html) |
