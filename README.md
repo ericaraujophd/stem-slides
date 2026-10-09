@@ -66,7 +66,7 @@ Themes: Justice, Care & Community, Ethics: Conceptual
 
 | Time | Presenter | Theme | Slides |
 |---|---|---|---|
-| 3:30 pm | Paul Griffioen | Justice, Care & Community | Pending |
+| 3:30 pm | Paul Griffioen | Justice, Care & Community | [PowerPoint](Session-6/S6-3-30pm-Griffioen-SermonPress-AI.pptx) |
 | 3:50 pm | Riné le Comte | Justice, Care & Community | Pending |
 | 4:10 pm | Sandra Mosley | Justice, Care & Community | [PowerPoint](Session-6/S6-4-10pm-Mosley-AI-as-a-Bridge.pptx) |
 | 4:30 pm | Nick Breems | Ethics: Conceptual | Pending |
