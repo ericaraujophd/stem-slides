@@ -53,7 +53,7 @@ Chair: Harry Plantinga
 | 1:30 pm | Andrew Basden (video) | Video file, shared separately (too large for GitHub) |
 | 1:45 pm | Kenneth C. Arnold | Pending |
 | 2:05 pm | Sean Cannon | No slides (presenting from his own laptop) |
-| 2:25 pm | Albert M. Erisman | Pending |
+| 2:25 pm | Albert M. Erisman | [PowerPoint](Session-5/S5-2-25pm-Erisman-Calvin-The-Role-of-a-Christian.pptx) |
 
 ## Session 6: Friday, October 9, 3:30 to 5:05 pm
 Chair: Nathan Sunukjian
